@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step-3</title>
+</head>
+
+<body>
+    <form action="http://www.example.com/profile.php">
+        <table align="center" cellspacing="0">
+            <tr>
+                <th bgcolor="a6dca0">Step 1: Account</th>
+                <th bgcolor="a6dca0">Step 2: Personal Details</th>
+                <th bgcolor="74a4dc">Step 3: Your Review</th>
+            </tr>
+        </table>
+        <fieldset>
+            <legend>Your Review</legend>
+            <p>How did you hear About us
+                <select name="Relative">
+                    <option value="Select your option" selected>Select your option</option>
+                    <option value="Friend">Friend</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Family">Family</option>
+                    <option value="Other">Other</option>
+                </select>
+
+            </p>
+
+            <p>Would you visit again?</p>
+            <input type="radio" name="choice" value="Yes">Yes
+            <input type="radio" name="choice" value="No">No
+            <input type="radio" name="choice" value="Maybe">Maybe
+
+            <p>Comment: <br>
+                <textarea name="Comment" cols="30" rows="4" placeholder="Enter your comment here..."></textarea>
+            </p>
+            <p>Document:</p>
+            <input type="file" name="Document" />
+            <p>
+                <input type="checkbox" name="service" value="Signup" checked="checked" />Sign me up for email updates
+            </p>
+            <a href="step-2.html"><img src="Images/back.png" alt="next" width="130" height="40" /></a>
+            <a href="Last Page.html"><img src="Images/submit.png" alt="next" width="130" height="40" /></a>
+        </fieldset>
+    </form>
+</body>
+
+</html>
